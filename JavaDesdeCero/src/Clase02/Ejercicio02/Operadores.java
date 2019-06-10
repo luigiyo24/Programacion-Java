@@ -18,6 +18,45 @@ public class Operadores {
         // TODO code application logic here
         
         //Asignacion =
+        
+        //int a = 2;
+        //int b;
+        //b = 2 + 2 + 3;
+        //System.out.println(b);
+        
+        //PRE INCREMENTO
+        //int a = 0;
+        //++a;
+        //System.out.println(a);
+        
+        //POST INCREMENTO
+        //int b = 0;
+        //b++;
+        //System.out.println(b);
+        
+        //PREINCREMENTO VS POSIINCREMENTO
+        //int a = 3;
+        //int b = 2;
+        //Comenzamos con preincremento
+        //int c = a * ++b;
+        //a = 3;
+        //b = 3;
+        //c = 9;
+        
+        //AHORA EL POSTINCREMENTO
+        //int c = a * b++;
+        //a = 3
+        //b = ? PRIMERO MULTIPLICA Y LUEGO AUMENTA
+        //c = 6
+        
+        //System.out.println(a);
+        //System.out.println(b);
+        //System.out.println(c);
+        
+        //RECOMENDACION:
+        //NUNCA UTILIZAR PREINCREMENTO O POSTINCREMENTO DENTRO DE UNA ACCION
+        //B++ O ++B;
+        
     }
     
 }
